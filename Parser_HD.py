@@ -35,7 +35,6 @@ def factiva_to_csv(path: str, csv_filename: str):
         return ""
 
     # create a new csv
-    # with open('factiva_metadata_new1.csv', 'w', newline='', encoding='utf-8') as csvfile:
     with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
 
         # write the fieldnames defined above as the headers of your csv
